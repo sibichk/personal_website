@@ -1,0 +1,498 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+body, html{
+	height:100%;
+}
+body{
+	background-color: #2DCC70;
+	overflow-x:hidden;
+}
+/*-------------menu---------*/
+header{
+	background-image: url('../img/social-mediamess.jpg');
+	background-size:cover;
+	height:200px;
+	overflow:hidden;
+}
+
+.menu{
+	float:right;
+	margin-right:25px;
+	margin-top:48px;
+}
+
+.menu div{
+	display:inline-block;
+	border: solid transparent;
+	height:90px;
+	width:90px;
+	border-radius:63px;
+	text-align:center;
+}
+.menu div img{
+	margin-top:8px;
+}
+
+.menu div:hover{
+	border:solid 3px blue;
+}
+/*------------------home body content----------- */
+.home-content, .timeline-content, .projects-content, .contact-content{
+	height:100%;
+	color:white;
+	background-color: #8989D4;
+
+	
+}
+.span7{
+	font-size: 36px;
+	margin-top:200px;
+}
+.slide{
+	overflow:hidden;
+}
+.slide li {
+	font-size:50px;
+	color:#3535E4;
+    display: block;
+    overflow:hidden;
+	font-family: sans-serif;
+    position: relative;
+    font-weight: bold;
+}
+
+.active{
+	color:white !important;
+}
+
+
+/*-----------------TIME LINE -------------*/
+.timeline-header{
+	height:300px;
+	background: url('../img/bg4.jpg');
+	background-size: cover;
+	color:white;
+	width:100%;
+	text-align:left;
+	font-size: 36px;
+	box-sizing: border-box;
+}
+
+.timeline-header .about, .project, .reach{
+	margin-left: 150px;
+	padding-top: 150px;
+}
+.timeline-content{
+	height:700px;
+	overflow: auto;
+}
+.circle{
+	width:60px;
+	height:60px;
+	background-color:black;
+	border-radius: 30px;
+	position:absolute;
+}
+
+.circle:hover{
+	opacity:0.3;
+}
+
+.education{
+	margin-top: 25%;
+	margin-left:20%;
+}
+
+.employment{
+	margin-top:5%;
+	margin-left:35%;
+}
+.interests{
+	margin-top:20%;
+	margin-left:55%;
+}
+.mission{
+	margin-top:13%;
+	margin-left:80%;
+}
+
+.education-title{
+	margin-top: 30%;
+	margin-left:19%;
+	font-size:20px;
+	position:absolute;
+}
+.ed-details, .emp-details, .int-details, .mission-details{
+	margin-left:-10%;
+	font-size:16px;
+	width:35%;
+	text-align:left;
+}
+.mission-details{
+	width:70%;
+}
+.employment-title{
+	margin-top: 10%;
+	margin-left:34%;
+	font-size:20px;
+	position:absolute;
+}
+.interests-title{
+	margin-top: 25%;
+	margin-left:55%;
+	font-size:20px;
+	position:absolute;
+}
+.mission-title{
+	margin-top: 18%;
+	margin-left:80%;
+	font-size:20px;
+	position:absolute;
+}
+.line1{
+	padding: 12%;
+	margin-top: 9%;
+	margin-left: 30%;
+	position: absolute;
+	border-left: 1px solid black;
+	transform: rotate(37deg);
+	transform-origin: 20% 40%;
+	-ms-transform: rotate(37deg);
+	-ms-transform-origin: 20% 40%;
+	-webkit-transform: rotate(37deg);
+	-webkit-transform-origin: 20% 40%;
+}
+.line2{
+	padding: 13%;
+	margin-top: 9%;
+	margin-left: 40%;
+	position: absolute;
+	border-left: 1px solid black;
+	transform: rotate(127deg);
+	transform-origin: 20% 40%;
+	-ms-transform: rotate(127deg);
+	-ms-transform-origin: 20% 40%;
+	-webkit-transform: rotate(127deg);
+	-webkit-transform-origin: 20% 40%;
+}
+.line3{
+	padding: 13%;
+	margin-top: 12%;
+	margin-left: 69%;
+	position: absolute;
+	border-left: 1px solid black;
+	transform: rotate(74deg);
+	transform-origin: 20% 40%;
+	-ms-transform: rotate(74deg);
+	-ms-transform-origin: 20% 40%;
+	-webkit-transform: rotate(74deg);
+	-webkit-transform-origin: 20% 40%;
+}
+
+/*----------------------PROJECTS------------------------*/
+.slide-container{
+	width:54%;
+	height:500px;
+	margin:auto;
+	margin-top:50px;
+	overflow:hidden;
+	border-radius:20px;
+	font-size:24px;
+	position:relative;
+}
+.projects-header{
+	background: url('../img/keyboard.jpg');
+	background-size: cover;
+	height:300px;
+	color:white;
+	font-size:36px;
+	overflow:auto;
+}
+
+
+.projects-content{
+	height:700px;
+	text-align: center;
+}
+.btn1{
+	margin-top:5%;
+	border-radius: 10px 0px 0 10px; /* top-left top-right bottom-right bottom-left */
+	width:200px;
+	display: inline-block;
+	height:60px;
+	border:solid;
+	cursor:pointer;
+}
+.btn2{
+	margin-top:5%;
+	width:200px;
+	height:60px;
+	display: inline-block;
+	border:solid;
+	cursor:pointer;
+}
+.btn3{
+	margin-top:5%;
+	width:200px;
+	cursor:pointer;
+	border-radius: 0px 10px 10px 0px;
+	height:60px;
+	display: inline-block;
+	border:solid;
+}
+.project1, .project2, .project3{
+	position:absolute;
+	border-radius: 30px;
+	background-color: #28283F;
+	padding-left:20px;
+	width:100%;
+	height:100%;
+	padding-top:40px;
+	text-align: left;
+
+}
+.project2, .project3{
+	margin-left:1100px;
+}
+.project1 img, .project2 img, .project3 img{
+	margin-top:60px;
+}
+.details{
+	float: right;
+	font-size: 18px;
+	display: inline-block;
+	margin-top:12%;
+	width: 57%;
+}
+/*--------------------CONTACT-------------------*/
+
+.contact-header{
+	background: url('../img/crowd.jpg');
+	background-size: cover;
+	height:300px;
+	color:white;
+	overflow:hidden;
+	font-size:36px;
+	margin:0px;
+}
+.contact-content{
+	height:700px;
+	text-align: center;
+}
+.social{
+	overflow:auto;
+	height:400px;
+	width:250px;
+	margin-top:200px;
+	cursor:pointer;
+	display:inline-block;
+	background-color: #28283F;
+}
+
+.linkedin .word{
+	height:80px;
+	width:250px;
+}
+
+.twitter .word{
+	height:80px;
+	width:200px;
+}
+
+.github .word{
+	height:80px;
+	width:200px;
+}
+
+.facebook .word{
+	height:80px;
+	width:200px;
+}
+/*-----------------------RESPONSIVE--------------------*/
+@media (max-width: 1350px){
+.details{
+		display:block;
+		float:left;
+		margin-top:0%;
+		font-size:14px;
+	}
+}
+@media (max-width: 1200px){
+	.span7{
+		margin-top: 0px;
+	}
+	.slide li{
+		font-size:40px;
+	}
+	.social{
+		height:350px;
+		width:200px;
+	}
+
+}
+
+@media (max-width:1000px){
+	.circle{
+		margin-left:0%;
+
+	}
+	.education{
+		margin-top:2%;
+	}
+	.employment{
+		margin-top:17%;
+	}
+	.interests{
+		margin-top: 32%;
+	}
+	.mission{
+		margin-top: 47%;
+	}
+	.line1{
+		transform: rotate(0deg);
+		transform-origin: 20% 40%;
+		-ms-transform: rotate(0deg);
+		-ms-transform-origin: 20% 40%;
+		-webkit-transform: rotate(0deg);
+		-webkit-transform-origin: 20% 40%;
+		margin-left: 3.5%;
+		margin-top: 4%;
+		padding: 22%;
+	}
+	.line2, .line3{
+		display:none;
+	}
+	.education-title{
+		margin-left: 8%;
+		margin-top:2%;
+		width:140%;
+	}
+	.employment-title{
+		margin-left: 8%;
+		margin-top:17%;
+		width:145%;
+	}
+	.interests-title{
+		margin-left:8%;
+		margin-top:32%;
+	}
+	.mission-title{
+		margin-left:8%;
+		margin-top:47%;
+	}
+	
+	
+}
+@media(max-width:800px){
+	.ed-details, .emp-details, .int-details, .mission-details{
+		font-size: 12px !important;
+	}
+	.social{
+		height:350px;
+		width:150px;
+	}
+.linkedin .word{
+	height:100px;
+	width:150px;
+	overflow: hidden;
+	}
+
+
+.twitter .word{
+	height:65px;
+	width:150px;
+}
+
+.github .word{
+	height:80px;
+	width:150px;
+}
+
+.facebook .word{
+	height:80px;
+	width:150px;
+}
+}
+@media (max-width: 600px){
+	.span7{
+		font-size:25px;
+	}
+	.slide li{
+		font-size:30px;
+	}
+	.education-title{
+		margin-top:10%;
+		width:180%;
+	}
+	.education{
+		margin-top:8%;
+	}
+	.employment-title{
+		margin-top:30%;
+		width:180%;
+	}
+	.employment{
+		margin-top:28%;
+	}
+	.interests-title{
+		margin-top:48%;
+		width:180%;
+	}
+	.interests{
+		margin-top: 48%;
+	}
+	.mission-title{
+		margin-top:68%;
+	}
+	.mission{
+		margin-top: 68%;
+	}
+	.line1{
+		transform: rotate(0deg);
+		transform-origin: 20% 40%;
+		-ms-transform: rotate(0deg);
+		-ms-transform-origin: 20% 40%;
+		-webkit-transform: rotate(0deg);
+		-webkit-transform-origin: 20% 40%;
+		margin-left: 4.5%;
+		margin-top: 8%;
+		padding: 32%;
+	}
+	.line2, .line3{
+		display:none;
+	}
+
+	}
+
+	@media (max-width: 500px){
+		.social{
+		height:300px;
+		width:100px;
+		}
+		.word{
+			width:100px !important;
+		}
+		.project1 img, .project2 img, .project3 img{
+			width:200px !important;
+		}
+	}
+
+
